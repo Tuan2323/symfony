@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello BlogController!{% endblock %}
+
+{% block body %}
+
+
+<article>
+    <h2>Titre de l'article</h2>
+    <div class="metadata">ecrit le 10/05/2020</div>
+    <div class="content">
+        <img src="http://placehold.it/350x150" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione blanditiis laboriosam vero voluptas, voluptatem atque.</p>
+        <p>Recusandae magni explicabo, ratione perspiciatis animi natus illum quos sapiente unde eaque quas neque iusto.</p>
+        <a href="{{ path('blog_show')}}" class="btn btn-primary">lire la suite</a>
+
+        <hr>
+    </div> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur nobis ipsa, sapiente vitae neque quae commodi aut mollitia aliquam debitis nesciunt est rerum vero ratione maxime officiis eos adipisci iusto. Cum voluptas, facilis adipisci animi eaque quia quibusdam soluta illo voluptatum iusto molestiae. Suscipit, animi optio dolore qui eius iste!</p>
+
+</article>
+
+{% endblock %}
