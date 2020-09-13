@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello BlogController!{% endblock %}
+
+{% block body %}
+
+<section calss="articles">
+
+<article>
+    <h2>Titre de l'article</h2>
+    <div class="metadata">ecrit le 10/05/2020</div>
+    <div class="content">
+        <img src="http://placehold.it/350x150" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione blanditiis laboriosam vero voluptas, voluptatem atque.</p>
+        <p>Recusandae magni explicabo, ratione perspiciatis animi natus illum quos sapiente unde eaque quas neque iusto.</p>
+        <a href="{{ path('blog_show')}}" class="btn btn-primary">lire la suite</a>
+    </div>
+</article>
+<article>
+    <h2>Titre de l'article</h2>
+    <div class="metadata">ecrit le 10/05/2020</div>
+    <div class="content">
+        <img src="http://placehold.it/350x150" alt="">
+        <p>Ipsam perspiciatis consequatur officiis error impedit vero veniam illum minima aliquid harum aut, provident numquam.</p>
+        <p>Reiciendis qui dignissimos cum! Illo adipisci est modi molestiae eius eaque voluptatum alias, aspernatur harum.</p>
+        <a href="" class="btn btn-primary">lire la suite</a>
+    </div>
+</article>
+<article>
+    <h2>Titre de l'article</h2>
+    <div class="metadata">ecrit le 10/05/2020</div>
+    <div class="content">
+        <img src="http://placehold.it/350x150" alt="">
+        <p>Magni vel nam possimus maiores temporibus, praesentium culpa. Ex quos ab iure suscipit perferendis voluptatibus.</p>
+        <p>Natus fugiat quibusdam quas, doloribus autem accusamus, explicabo id nemo, dolore ad quae nobis sapiente.</p>
+        <a href="" class="btn btn-primary">lire la suite</a>
+    </div>
+</article>
+</section>
+{% endblock %}

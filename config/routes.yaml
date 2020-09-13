@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+hello:
+    path: /hello
+    controller: App\Controller\HelloController::sayHello
+
+po:
+    path: /conducteur2
+    controller: App\Controller\ConducteurController::new
+
+homepage:
+    path: /
+    controller: App\Controller\BlogController::index
